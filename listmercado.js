@@ -50,11 +50,9 @@ function clean() {
 
 
 function RemoveItem(){
-
-    if (itemList.length > 0) {
     localStorage.removeItem('items')
     itemList.splice(0,1)
     showList()
         
-    }
+    
 }
